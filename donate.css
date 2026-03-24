@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+    background-color: #f2f2f2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.a{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    box-shadow: 0 0 7px 5px black;
+}
+.b{
+    text-align: center;
+}
+.a h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px;
+    padding: 30px;
+    color: red;
+    text-decoration: underline;
+}
+.group{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.units{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.age{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.bloodgroup, .n{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.button {
+    font-size: 20px;
+}
+body{
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-hand-painted-blood-donation-poster-background-picture-image_921557.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

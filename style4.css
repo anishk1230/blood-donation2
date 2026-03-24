@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    margin: 110px;
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQUtBhhKJXJgRyAU19JiutEVrXDrNi7RdAQ&usqp=CAU);*/
+    background-image: url(https://png.pngitem.com/pimgs/s/297-2971282_blood-donation-png-photos-blood-donation-blood-drop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: rgb(34, 234, 30);
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+p{
+    color: blue;
+    font-size: 50px;
+    padding-top: 0px;
+}

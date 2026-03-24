@@ -1,0 +1,42 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding: 110px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.heading::before{
+    opacity: 0.5;
+}
+body{
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-medical-rescue-city-blood-donation-picture-image_952204.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.head{
+    color: #610d0d;
+    font-size: 40px;
+}
+.about{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.slogan{
+    font-size: 30px;
+}
+.para{
+    font-size: 20px;
+}
+.adress{
+    font-size: 20px;
+}
+.phone{
+    font-size: 20px;
+}
+.home{
+    font-size: 30px;
+    color: rgb(132, 1, 255);
+}

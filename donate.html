@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATETHEBLOOD</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <div class="a">
+        <h2>DONATE BLOOD</h2>
+        <div class="b">
+            <form action="/home.html" onsubmit="val()">
+                <div class="group">
+                    <label class="n">Blood Group</label>
+                    <select class="bloodgroup" required>
+                        <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B-</option>
+                        <option value="">O+</option>
+                        <option value="">O-</option>
+                        <option value="">AB+</option>
+                        <option value="">AB-</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label class="n">Units(in ml)</label>
+                    <input type="number" class="units" min="1" max="470" required>
+                </div>
+                <div class="group">
+                    <label class="n">Are you a regular donor?</label>
+                    <select class="n" required>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option></select>
+                </div>
+                
+                <div class="group">
+                    <label class="n">Age</label>
+                    <input type="number" class="age" id="age" min="18" required>
+                    <span id="message" style="color: red;"></span>
+                </div>
+                <div class="group">
+                    <button class="button" name="DONATE">DONATE</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    function val(){
+        alert("Thank you for saving a life by donating your blood")
+    }
+</script>
+
+    
